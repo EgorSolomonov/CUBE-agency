@@ -666,7 +666,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
 body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .start-price {
   font-weight: 700;
   -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   color: black;
 }
 @media only screen and (max-width: 375px) {

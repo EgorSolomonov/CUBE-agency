@@ -30,7 +30,12 @@ body {
   font-style: normal;
   color: $mainText1;
   background-color: $mainBackground;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 
   .modal-window {
@@ -42,7 +47,11 @@ body {
     height: 100vh;
     background-color: $modalBack;
     width: inherit;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     color: $mainText2;
 
@@ -52,8 +61,15 @@ body {
     }
 
     .modal-window__form {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       gap: 20px;
       z-index: 6;
@@ -92,9 +108,18 @@ body {
       }
 
       form {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         gap: 10px;
 
@@ -176,13 +201,23 @@ body {
     }
 
     .wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       gap: 30px;
 
       .logo-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
 
         @media only screen and (max-width: 375px) {
@@ -211,7 +246,11 @@ body {
       }
 
       .navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         gap: 40px;
         text-transform: uppercase;
@@ -265,6 +304,9 @@ body {
       /* Hamburger */
       .hamburger {
         display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 34px;
         gap: 4px;
@@ -272,12 +314,16 @@ body {
 
         @media only screen and (max-width: 375px) {
           z-index: 5;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
         }
 
         .hamburger__line {
           background-color: $mainText1;
           height: 4px;
+          -webkit-transition: all 0.5s ease-out;
+          -o-transition: all 0.5s ease-out;
           transition: all 0.5s ease-out;
         }
 
@@ -290,6 +336,8 @@ body {
 
       .hamburger-open {
         .hamburger__line:first-child {
+          -webkit-transform: rotate(45deg) translate(3px, 3px);
+          -ms-transform: rotate(45deg) translate(3px, 3px);
           transform: rotate(45deg) translate(3px, 3px);
         }
 
@@ -298,6 +346,8 @@ body {
         }
 
         .hamburger__line:last-child {
+          -webkit-transform: rotate(-45deg) translate(2px, -3px);
+          -ms-transform: rotate(-45deg) translate(2px, -3px);
           transform: rotate(-45deg) translate(2px, -3px);
         }
       }
@@ -307,7 +357,12 @@ body {
     .burger-menu {
       visibility: hidden;
       position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
       z-index: 4;
       width: 380px;
@@ -319,10 +374,17 @@ body {
       line-height: 20px;
       text-transform: uppercase;
       gap: 35px;
+      -webkit-transition: 1s all ease;
+      -o-transition: 1s all ease;
       transition: 1s all ease;
 
       .navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 22px;
 
@@ -375,7 +437,11 @@ body {
       background-image: url(./utils/img/main/back_top.png);
       background-repeat: no-repeat;
       background-size: 100% 90%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       background-attachment: fixed;
 
@@ -392,9 +458,18 @@ body {
         font-size: 20px;
         line-height: 25px;
         color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         position: relative;
 
@@ -428,12 +503,21 @@ body {
         }
 
         .info__button-wrapper {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           gap: 30px;
 
           @media only screen and (max-width: 375px) {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
             gap: 20px;
           }
@@ -459,6 +543,8 @@ body {
           }
 
           .contacts-wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 15px;
 
@@ -466,6 +552,8 @@ body {
               cursor: pointer;
 
               &:hover {
+                -webkit-filter: invert(33%) sepia(47%) saturate(1512%)
+                  hue-rotate(279deg) brightness(89%) contrast(98%);
                 filter: invert(33%) sepia(47%) saturate(1512%)
                   hue-rotate(279deg) brightness(89%) contrast(98%);
               }
@@ -489,17 +577,21 @@ body {
           }
           @keyframes rot {
             0% {
+              -webkit-transform: rotate(0deg);
               transform: rotate(0deg);
             }
             100% {
+              -webkit-transform: rotate(360deg);
               transform: rotate(360deg);
             }
           }
           @-webkit-keyframes rot {
             0% {
+              -webkit-transform: rotate(0deg);
               transform: rotate(0deg);
             }
             100% {
+              -webkit-transform: rotate(360deg);
               transform: rotate(360deg);
             }
           }
@@ -509,13 +601,22 @@ body {
 
     /* Team-presentation */
     .team-presentation {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       margin-top: 89px;
       gap: 55px;
 
       @media only screen and (max-width: 375px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 29px;
       }
@@ -577,8 +678,15 @@ body {
 
     /* Travel cards */
     .travel-cards {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       margin-top: 75px;
 
@@ -609,10 +717,15 @@ body {
       }
 
       .travel-cards__cards-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         gap: 40px;
 
         @media only screen and (max-width: 375px) {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
           margin-top: 55px;
         }
@@ -623,6 +736,8 @@ body {
           font-weight: 700;
           font-size: 16px;
           line-height: 20px;
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
           flex: 1;
           height: auto;
 
@@ -637,8 +752,15 @@ body {
           }
 
           .card-img-overlay {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
             left: 25px;
 
@@ -667,7 +789,12 @@ body {
             }
 
             .card-text-wrapper {
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
               flex-direction: column;
               gap: 10px;
 
@@ -684,7 +811,11 @@ body {
               }
 
               .card-text-box {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
                 align-items: center;
                 gap: 12px;
 
@@ -702,8 +833,15 @@ body {
           .card-body {
             padding: 35px 23px;
             z-index: 2;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
 
             .card-title {
@@ -718,12 +856,19 @@ body {
             }
 
             .card-prices {
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
               align-items: center;
+              -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
               justify-content: space-between;
 
               .start-price {
                 font-weight: 700;
+                -webkit-text-decoration-line: line-through;
                 text-decoration-line: line-through;
                 color: $mainText1;
 
@@ -746,7 +891,12 @@ body {
                 }
               }
               .card-prices__group {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
                 flex-direction: column;
 
                 .explanation {
@@ -763,7 +913,12 @@ body {
               }
 
               .card-prices__individual {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
                 flex-direction: column;
 
                 .explanation {
@@ -783,6 +938,8 @@ body {
                   color: $cardSectionTextColor;
 
                   @media only screen and (max-width: 375px) {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
                   }
                 }
@@ -815,9 +972,18 @@ body {
 
     /* Benefits */
     .benefits {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       margin-top: 123px;
       height: 477px;
@@ -849,7 +1015,11 @@ body {
       }
 
       .benefits__item-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         gap: 130px;
         font-weight: 700;
@@ -859,29 +1029,44 @@ body {
         width: 65%;
 
         @media only screen and (max-width: 375px) {
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
           gap: 15px;
           width: 100%;
         }
 
         .benefits__item_left {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
           gap: 60px;
 
           @media only screen and (max-width: 375px) {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             width: 90%;
           }
         }
 
         .benefits__item_right {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
           gap: 60px;
 
           @media only screen and (max-width: 375px) {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             width: 90%;
           }
@@ -921,8 +1106,15 @@ body {
 
     /* Video */
     .video {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       margin-top: 73px;
       gap: 20px;
@@ -948,8 +1140,15 @@ body {
       }
 
       .video__player {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         gap: 35px;
 
@@ -977,8 +1176,15 @@ body {
 
     /* Questions */
     .questions {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       font-weight: 400;
       line-height: 30px;
@@ -1001,7 +1207,11 @@ body {
           font-size: 30px;
           list-style: none;
           width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
           justify-content: space-between;
 
           @media only screen and (max-width: 375px) {
@@ -1016,6 +1226,8 @@ body {
             font-size: 56px;
             display: inline-block;
             vertical-align: middle;
+            -webkit-transition: 1s all ease;
+            -o-transition: 1s all ease;
             transition: 1s all ease;
 
             @media only screen and (max-width: 375px) {
@@ -1039,6 +1251,8 @@ body {
         &::after {
           content: "+";
           display: inline-block;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
           transform: rotate(45deg);
           color: $cardSectionButtonColor;
         }
@@ -1050,8 +1264,14 @@ body {
 
   footer {
     .wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       background-color: $mainText2;
       margin-top: 70px;
@@ -1059,6 +1279,9 @@ body {
       gap: 330px;
 
       @media only screen and (max-width: 375px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         height: auto;
         margin-top: 20px;
@@ -1066,7 +1289,12 @@ body {
       }
 
       .logo-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 9px;
         font-size: 13px;
@@ -1077,12 +1305,18 @@ body {
         }
 
         .logo {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           gap: 20px;
           position: relative;
 
           @media only screen and (max-width: 375px) {
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
           }
 
@@ -1115,7 +1349,12 @@ body {
       }
 
       .social-networks {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 40px;
         margin-top: 25px;
@@ -1126,13 +1365,19 @@ body {
         }
 
         .social-networks__icons {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
           justify-content: flex-end;
           gap: 6px;
 
           @media only screen and (max-width: 375px) {
             gap: 9px;
             margin-top: 40px;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
           }
 
@@ -1152,6 +1397,8 @@ body {
           display: none;
 
           @media only screen and (max-width: 375px) {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             font-size: 12px;
             color: $questionsBorder;
