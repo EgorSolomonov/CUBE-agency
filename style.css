@@ -157,7 +157,7 @@ body header {
 @media only screen and (max-width: 375px) {
   body header {
     height: 74px;
-    width: 90%;
+    width: 100%;
   }
 }
 body header .wrapper {
