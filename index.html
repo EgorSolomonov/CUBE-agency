@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Выше города</title>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header>
+        <section class="wrapper">
+          <div class="logo-wrapper">
+            <div class="logo-wrapper__logo-img">
+              <img
+                src="./utils/img/header/Выше-города-лого3 1.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-wrapper__logo-text">
+              ДЖИП ТУРЫ И ЭКСКУРСИИ В ГОРЫ СЕВЕРНОГО КАВКАЗА
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="navigation__item"><span>1-дневные туры</span></div>
+            <div class="navigation__item"><span>многодневные туры</span></div>
+            <div class="navigation__item"><span>зимние туры</span></div>
+            <div class="navigation__item"><span>Отзывы</span></div>
+          </div>
+          <div class="contacts-wrapper">
+            <div class="contacts-wrapper__phone">
+              <a href="#">7 (988) 089-35-49</a>
+            </div>
+            <div class="contacts-wrapper__email">
+              <span>letsrock.tours@gmail.com</span>
+            </div>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+          </div>
+        </section>
+
+        <div class="burger-menu">
+          <div class="navigation">
+            <div class="navigation__item"><span>1-дневные туры</span></div>
+            <div class="navigation__item"><span>многодневные туры</span></div>
+            <div class="navigation__item"><span>зимние туры</span></div>
+            <div class="navigation__item"><span>Отзывы</span></div>
+          </div>
+          <div class="contacts-wrapper">
+            <div class="contacts-wrapper__phone">
+              <a href="#">7 (988) 089-35-49</a>
+            </div>
+            <div class="contacts-wrapper__email">
+              <span>letsrock.tours@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-window">
+          <div class="modal-window__form">
+            <h1>Хочу в путешествие!</h1>
+            <p>
+              Ура, вы решились! Заполните форму ниже и мы свяжемся с вами, чтобы
+              рассказать о туре подробнее.
+            </p>
+            <form>
+              <input type="text" placeholder="Ваше имя" />
+              <input
+                type="tel"
+                placeholder="+7 (000) 000-00-00"
+                minlength="10"
+                maxlength="12"
+                pattern="(\+?\d[- .]*){7,13}"
+              />
+              <input
+                id="people-amount"
+                type="number"
+                placeholder="Количество человек"
+              />
+              <input
+                id="calendar"
+                type="text"
+                placeholder="Укажите дату тура"
+                onfocus="(this.type='date')"
+                onblur="(this.type='text')"
+              />
+              <input type="text" placeholder="Комментарии" />
+              <input id="submit" type="submit" value="Отправить" />
+            </form>
+            <p>
+              Нажимая на кнопку, вы соглашаетесь с условиями и пользовательским
+              соглашением.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="banner-top">
+          <div class="info">
+            <h1 class="info__header">
+              Впечатляющие туры по Кавказу с «Выше города»
+            </h1>
+            <p class="info__text">
+              Стоимость: от 3 150₽ за человека Группа: от 1 до 8 человек (едем
+              на джипах) Продолжительность: от 7 часов Сложность: маршруты, в
+              основном, для участников 1-й (легкой) категории сложности
+            </p>
+
+            <div class="info__button-wrapper">
+              <a href="#" id="modal-button" class="button"
+                >Хочу в путешествие!</a
+              >
+              <span>Получите бесплатную конcультацию</span>
+              <div class="contacts-wrapper">
+                <img src="./utils/img/main/phoneIcon.svg" alt="icon" />
+                <img src="./utils/img/main/emailIcon.svg" alt="icon" />
+              </div>
+            </div>
+
+            <!-- Rotate Element -->
+            <div class="rotate-element">
+              <img src="./utils/img/main/round-words.svg" alt="rotate-words" />
+            </div>
+          </div>
+        </section>
+
+        <section class="team-presentation">
+          <div class="team-presentation__img">
+            <img
+              class="main-img"
+              src="./utils/img/main/parralaks-main.png"
+              alt="team"
+            />
+            <img
+              class="clouds-img"
+              src="./utils/img/main/parralaks-cloud.png"
+              alt="clouds"
+            />
+            <img
+              class="lines-img"
+              src="./utils/img/main/parralaks-lines.png"
+              alt="lines"
+            />
+          </div>
+          <div class="team-presentaion__text">
+            Друзья, мы можем организовать вам умопомрачительную программу по
+            Кавказу, где вы месяц будете насыщаться впечатлениями, да такими,
+            что потом всю жизнь вспоминать и внукам рассказывать!
+            <br />
+            <br />
+            Мы команда гидов, которые занимаются организацией туров по Кавказу
+            более 5 лет. Проводим экскурсии на подготовленных внедорожниках. С
+            радостью покажем все самые живописные места Кавказа и расскажем о
+            них интересные факты.
+          </div>
+        </section>
+
+        <section class="travel-cards">
+          <h4 class="header-text">ПУТЕШЕСТВИЯ В 2022 ГОДУ</h4>
+          <p class="travel-cards__header-subtext">
+            Мы предлагаем путешествие в мини-группах или индивидуальный тур,
+            который подберем для вас, с учетом предпочтений
+          </p>
+          <div class="travel-cards__cards-wrapper">
+            <div class="card">
+              <img
+                src="./utils/img/main/bermamit.png"
+                class="card-img-top"
+                alt="travelImg"
+              />
+              <div class="card-img-overlay">
+                <span class="discount">Скидка 5%</span>
+                <span class="start-time">Ежедневно в 7:00</span>
+                <div class="card-text-wrapper">
+                  <h5 class="card-title">Плато Бермамыт, КЧР</h5>
+                  <div class="card-text-box">
+                    <img src="./utils/img/main/cardIcon1.svg" alt="card-icon" />
+                    <p class="card-text">Время поездки с 7:00 до 19:00</p>
+                  </div>
+                  <div class="card-text-box">
+                    <img src="./utils/img/main/cardIcon2.svg" alt="card-icon" />
+                    <p class="card-text">
+                      Уровень сложности – подходит новичкам и детям
+                    </p>
+                  </div>
+                  <div class="card-text-box">
+                    <img src="./utils/img/main/cardIcon3.svg" alt="card-icon" />
+                    <p class="card-text">Мини-группа: до 8 человек</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Насладитесь красотами Северного Кавказа — плато Бермаммыт,
+                  карстовые пещеры и Медовые водопады.
+                </h5>
+                <div class="card-prices">
+                  <div class="card-prices__group">
+                    <span class="start-price">3 150 руб.</span>
+                    <span class="finish-price">3 150 руб.</span>
+                    <span class="explanation">мини-группа (за человека)</span>
+                  </div>
+                  <div class="card-prices__individual">
+                    <span class="start-price">10 050 руб.</span>
+                    <span class="finish-price">10 050 руб.</span>
+                    <span class="explanation">
+                      индивидуальный (за машину 6 мест)
+                    </span>
+                    <span class="explanation-phone">Индивидуальные туры</span>
+                  </div>
+                </div>
+                <div class="card-body__button">
+                  <a href="#">Узнать больше</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="./utils/img/main/dshil-su.png"
+                class="card-img-top"
+                alt="travelImg"
+              />
+              <div class="card-img-overlay">
+                <span class="discount">Скидка 5%</span>
+                <span class="start-time">Ежедневно в 7:00</span>
+                <div class="card-text-wrapper">
+                  <h5 class="card-title">Урочище Джилы-Су, КБР</h5>
+                  <div class="card-text-box">
+                    <img src="./utils/img/main/cardIcon1.svg" alt="card-icon" />
+                    <p class="card-text">Время поездки с 7:00 до 19:00</p>
+                  </div>
+                  <div class="card-text-box">
+                    <img src="./utils/img/main/cardIcon2.svg" alt="card-icon" />
+                    <p class="card-text">
+                      Уровень сложности – подходит новичкам и детям
+                    </p>
+                  </div>
+                  <div class="card-text-box">
+                    <img src="./utils/img/main/cardIcon3.svg" alt="card-icon" />
+                    <p class="card-text">Мини-группа: до 8 человек</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Удивительный природный курорт находится на высоте 2380 м над
+                  уровнем моря у подножия северного склона легендарной горы
+                  Эльбрус - самой высокой точки в Европе.
+                </h5>
+                <div class="card-prices">
+                  <div class="card-prices__group">
+                    <span class="start-price">3 150 руб.</span>
+                    <span class="finish-price">3 150 руб.</span>
+                    <span class="explanation">мини-группа (за человека)</span>
+                  </div>
+                  <div class="card-prices__individual">
+                    <span class="start-price">10 050 руб.</span>
+                    <span class="finish-price">10 050 руб.</span>
+                    <span class="explanation">
+                      индивидуальный (за машину 6 мест)
+                    </span>
+                    <span class="explanation-phone">Индивидуальные туры</span>
+                  </div>
+                </div>
+                <div class="card-body__button">
+                  <a href="#">Узнать больше</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="benefits">
+          <h2 class="benefits__header">Почему выбирают «Выше города»</h2>
+          <div class="benefits__item-wrapper">
+            <div class="benefits__item_left">
+              <div class="benefits__item">
+                <img src="./utils/img/main/icon1.svg" alt="icon" />
+                <p><span>Мы планируем</span> потрясающие маршруты</p>
+              </div>
+              <div class="benefits__item">
+                <img src="./utils/img/main/icon2.svg" alt="icon" />
+                <p><span>Вы в руках</span> опытных путешественников</p>
+              </div>
+            </div>
+            <div class="benefits__item_right">
+              <div class="benefits__item">
+                <img src="./utils/img/main/icon3.svg" alt="icon" />
+                <p>
+                  <span>Познакомьтесь</span><br />
+                  с новыми местами и людьми
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img src="./utils/img/main/icon4.svg" alt="icon" />
+                <p>
+                  <span>Туры</span> <br />
+                  для всех уровней сложности
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="video">
+          <div class="video__header">
+            <p>
+              Каждый тур уникален и незабываем! Посмотрите видео наших гостей
+              чтобы прочувствовать атмосферу из первых рук!
+            </p>
+          </div>
+          <div class="video__player">
+            <iframe
+              src="https://www.youtube.com/embed/QjXlBmlim9g"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <a href="#">Посмотреть все видео</a>
+          </div>
+        </section>
+
+        <section class="questions">
+          <details class="questions__item">
+            <summary class="questions__item-title">Стоимость туров?</summary>
+            <div class="questions__item-content">
+              Описание стоимости туров и других дополнительных услуг, которые
+              дадут пользователю представление о сумме путешествия
+            </div>
+          </details>
+          <details class="questions__item">
+            <summary class="questions__item-title">
+              Как узнать место встречи?
+            </summary>
+            <div class="questions__item-content">
+              Описание стоимости туров и других дополнительных услуг, которые
+              дадут пользователю представление о сумме путешествия
+            </div>
+          </details>
+          <details class="questions__item">
+            <summary class="questions__item-title">
+              Какие условия бронирования и оплаты?
+            </summary>
+            <div class="questions__item-content">
+              Описание стоимости туров и других дополнительных услуг, которые
+              дадут пользователю представление о сумме путешествия
+            </div>
+          </details>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <section class="wrapper">
+        <div class="logo-wrapper">
+          <div class="logo">
+            <div class="logo__img">
+              <img
+                src="./utils/img/header/Выше-города-лого3 1.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo__text">
+              ИП Курдубанов М.Ю. <br />
+              ИНН 262902464488 <br />
+              ОГРНИП 3202655100092752
+            </div>
+            <div class="contacts">
+              Телефон/WhatsApp: +7 988 089 3549 <br />
+              Почта: letsrock.tours@gmail.com
+            </div>
+          </div>
+          <div class="rights">
+            Все представленные на сайте материалы носят информационный характер
+            и не являются публичной офертой. <br />
+            Выше города. Все права защищены
+          </div>
+        </div>
+
+        <div class="social-networks">
+          <div class="social-networks__icons">
+            <div class="social-networks__icons_item">
+              <img src="./utils/img/footer/facebookIcon.svg" alt="facebook" />
+            </div>
+            <div class="social-networks__icons_item">
+              <img src="./utils/img/footer/vkIcon.svg" alt="vk" />
+            </div>
+            <div class="social-networks__icons_item">
+              <img src="./utils/img/footer/youtubeIcon.svg" alt="youtube" />
+            </div>
+            <div class="social-networks__icons_item">
+              <img src="./utils/img/footer/telegramIcon.svg" alt="telegram" />
+            </div>
+          </div>
+          <div class="rights-phone">
+            Все представленные на сайте материалы носят информационный характер
+            и не являются публичной офертой. <br />
+            Выше города. Все права защищены
+          </div>
+          <div class="confidential-policy">
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Hamburger script -->
+    <script>
+      const hamburgerIcon = document.querySelector(".hamburger");
+      const hamburgerMenu = document.querySelector(".burger-menu");
+
+      hamburgerIcon.addEventListener("click", () => {
+        hamburgerIcon.classList.toggle("hamburger-open");
+        hamburgerMenu.classList.toggle("hamburger-menu-open");
+      });
+
+      /* Modal window script */
+      const modal = document.querySelector(".modal-window");
+      const showModalButt = document.getElementById("modal-button");
+      const form = document.getElementsByTagName("form")[0];
+
+      modal.addEventListener("click", (e) => {
+        if (e.target.tagName !== "INPUT") modal.style.display = "none";
+      });
+
+      showModalButt.addEventListener("click", () => {
+        modal.style.display = "flex";
+      });
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
