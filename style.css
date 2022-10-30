@@ -35,7 +35,7 @@ body .modal-window {
   justify-content: center;
   color: white;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window {
     width: 100%;
     height: calc(100vh + 84px);
@@ -53,7 +53,7 @@ body .modal-window .modal-window__form h1 {
   font-size: 40px;
   line-height: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window .modal-window__form h1 {
     font-size: 30px;
     line-height: 17px;
@@ -66,7 +66,7 @@ body .modal-window .modal-window__form p {
   max-width: 517px;
   text-align: center;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window .modal-window__form p {
     font-size: 16px;
     line-height: 17px;
@@ -76,7 +76,7 @@ body .modal-window .modal-window__form p:last-child {
   color: #b3b3b3;
   font-size: 15px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window .modal-window__form p:last-child {
     font-size: 13px;
   }
@@ -100,7 +100,7 @@ body .modal-window .modal-window__form form input {
   text-indent: 25px;
   color: #7d7d7d;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window .modal-window__form form input {
     width: 300px;
     height: 50px;
@@ -113,7 +113,7 @@ body .modal-window .modal-window__form form input:last-child {
   font-size: 22px;
   line-height: 23px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window .modal-window__form form input:last-child {
     font-size: 18px;
     line-height: 17px;
@@ -139,7 +139,7 @@ body .modal-window .modal-window__form form #calendar::-webkit-calendar-picker-i
   top: center;
   opacity: 0;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body .modal-window .modal-window__form form #calendar::-webkit-calendar-picker-indicator {
     width: 30px;
     height: 30px;
@@ -154,7 +154,7 @@ body header {
   background-color: white;
   /* BURGER-MENU */
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header {
     height: 74px;
     width: 100%;
@@ -171,12 +171,12 @@ body header .wrapper .logo-wrapper {
   display: flex;
   align-items: center;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .wrapper .logo-wrapper {
     gap: 13px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .wrapper .logo-wrapper .logo-wrapper__logo-img img {
     width: 67px;
     height: 71px;
@@ -188,7 +188,7 @@ body header .wrapper .logo-wrapper .logo-wrapper__logo-text {
   font-size: 14px;
   line-height: 17px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .wrapper .logo-wrapper .logo-wrapper__logo-text {
     max-width: 199px;
   }
@@ -200,7 +200,7 @@ body header .wrapper .navigation {
   text-transform: uppercase;
   margin-top: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .wrapper .navigation {
     display: none;
   }
@@ -217,7 +217,7 @@ body header .wrapper .navigation .navigation__item:hover {
 body header .wrapper .contacts-wrapper {
   margin-top: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .wrapper .contacts-wrapper {
     display: none;
   }
@@ -246,7 +246,7 @@ body header .wrapper .hamburger {
   gap: 4px;
   cursor: pointer;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .wrapper .hamburger {
     z-index: 5;
     display: flex;
@@ -305,12 +305,12 @@ body header .burger-menu .contacts-wrapper .contacts-wrapper__email {
   line-height: 17px;
   text-transform: none;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .burger-menu {
     right: -375px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body header .hamburger-menu-open {
     visibility: visible;
     right: 0;
@@ -334,7 +334,7 @@ body main .banner-top {
   justify-content: center;
   background-attachment: fixed;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top {
     height: 600px;
     background-size: 400% 100%;
@@ -355,7 +355,7 @@ body main .banner-top .info {
   position: relative;
   /* Rotate element */
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top .info {
     margin-left: 0px;
     margin-top: 40px;
@@ -368,7 +368,7 @@ body main .banner-top .info .info__header {
   line-height: 75px;
   max-width: 923px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top .info .info__header {
     font-size: 39px;
     line-height: 49px;
@@ -378,7 +378,7 @@ body main .banner-top .info .info__text {
   max-width: 526px;
   margin-bottom: 50px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top .info .info__text {
     font-size: 16px;
     line-height: 20px;
@@ -390,7 +390,7 @@ body main .banner-top .info .info__button-wrapper {
   align-items: center;
   gap: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top .info .info__button-wrapper {
     flex-direction: column;
     align-items: flex-start;
@@ -410,7 +410,7 @@ body main .banner-top .info .info__button-wrapper span {
   line-height: 29px;
   max-width: 247px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top .info .info__button-wrapper span {
     font-size: 16px;
     line-height: 20px;
@@ -431,7 +431,7 @@ body main .banner-top .info .rotate-element {
   right: -375px;
   top: 455px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .banner-top .info .rotate-element {
     display: none;
   }
@@ -463,7 +463,7 @@ body main .team-presentation {
   margin-top: 89px;
   gap: 55px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .team-presentation {
     flex-direction: column;
     margin-top: 29px;
@@ -475,7 +475,7 @@ body main .team-presentation .team-presentation__img {
 body main .team-presentation .team-presentation__img .main-img {
   z-index: 1;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .team-presentation .team-presentation__img .main-img {
     width: 291px;
     height: 291px;
@@ -487,7 +487,7 @@ body main .team-presentation .team-presentation__img .clouds-img {
   top: -67px;
   z-index: 2;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .team-presentation .team-presentation__img .clouds-img {
     width: 260px;
     height: 175px;
@@ -501,7 +501,7 @@ body main .team-presentation .team-presentation__img .lines-img {
   bottom: 25px;
   left: 220px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .team-presentation .team-presentation__img .lines-img {
     width: 184px;
     height: 47px;
@@ -515,7 +515,7 @@ body main .team-presentation .team-presentaion__text {
   line-height: 30px;
   max-width: 610px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .team-presentation .team-presentaion__text {
     font-size: 17px;
     line-height: 25px;
@@ -528,7 +528,7 @@ body main .travel-cards {
   align-items: center;
   margin-top: 75px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards {
     padding: 0 20px;
   }
@@ -538,7 +538,7 @@ body main .travel-cards .header-text {
   font-size: 30px;
   line-height: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .header-text {
     font-size: 23px;
   }
@@ -549,7 +549,7 @@ body main .travel-cards .travel-cards__header-subtext {
   line-height: 30px;
   color: #7a7a7a;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__header-subtext {
     font-size: 16px;
     line-height: 20px;
@@ -559,7 +559,7 @@ body main .travel-cards .travel-cards__cards-wrapper {
   display: flex;
   gap: 40px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper {
     flex-direction: column;
     margin-top: 55px;
@@ -574,7 +574,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card {
   flex: 1;
   height: auto;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-img-top {
     min-height: 290px;
   }
@@ -603,7 +603,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-img-overlay .st
   line-height: 21px;
   margin-top: 60px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-img-overlay .start-time {
     margin-top: 12px;
     padding: 10px 20px;
@@ -622,7 +622,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-img-overlay .ca
   line-height: 50px;
   margin-top: 5px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-img-overlay .card-text-wrapper .card-title {
     font-size: 27px;
     line-height: 34px;
@@ -633,7 +633,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-img-overlay .ca
   align-items: center;
   gap: 12px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-img-overlay .card-text-wrapper .card-text-box .card-text {
     font-size: 14px;
     line-height: 18px;
@@ -651,7 +651,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-titl
   color: #7a7a7a;
   min-height: 100px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-title {
     font-weight: 400;
     font-size: 17px;
@@ -669,7 +669,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   text-decoration-line: line-through;
   color: black;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .start-price {
     font-size: 13px;
   }
@@ -682,7 +682,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   line-height: 40px;
   color: #00b5ff;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .finish-price {
     font-size: 24px;
     line-height: 28px;
@@ -697,7 +697,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   line-height: 17px;
   color: #7a7a7a;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .card-prices__group .explanation {
     font-size: 14px;
     line-height: 17px;
@@ -708,7 +708,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   display: flex;
   flex-direction: column;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .card-prices__individual {
     height: 82px;
   }
@@ -718,7 +718,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   line-height: 17px;
   color: #7a7a7a;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .card-prices__individual .explanation {
     display: none;
   }
@@ -729,7 +729,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   line-height: 15px;
   color: #7a7a7a;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .card-prices__individual .explanation-phone {
     display: flex;
   }
@@ -743,7 +743,7 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-body
   padding: 16px 43px;
   color: black;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-body__button a {
     padding: 18px 27px;
   }
@@ -765,7 +765,7 @@ body main .benefits {
   background-size: 100% 90%;
   background-repeat: no-repeat;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits {
     height: 500px;
     margin-top: 55px;
@@ -779,7 +779,7 @@ body main .benefits .benefits__header {
   font-size: 40px;
   line-height: 50px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__header {
     font-size: 25px;
     line-height: 31px;
@@ -797,7 +797,7 @@ body main .benefits .benefits__item-wrapper {
   color: #00b5ff;
   width: 65%;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__item-wrapper {
     align-items: center;
     flex-direction: column;
@@ -809,7 +809,7 @@ body main .benefits .benefits__item-wrapper .benefits__item_left {
   display: flex;
   gap: 60px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__item-wrapper .benefits__item_left {
     display: flex;
     justify-content: space-around;
@@ -820,7 +820,7 @@ body main .benefits .benefits__item-wrapper .benefits__item_right {
   display: flex;
   gap: 60px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__item-wrapper .benefits__item_right {
     display: flex;
     justify-content: space-around;
@@ -830,12 +830,12 @@ body main .benefits .benefits__item-wrapper .benefits__item_right {
 body main .benefits .benefits__item-wrapper .benefits__item {
   max-width: 220px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__item-wrapper .benefits__item {
     max-width: 145px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__item-wrapper .benefits__item img {
     width: 58px;
     height: 58px;
@@ -846,7 +846,7 @@ body main .benefits .benefits__item-wrapper .benefits__item p {
   margin-top: 17px;
   max-width: 210px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .benefits .benefits__item-wrapper .benefits__item p {
     font-size: 18px;
     line-height: 19px;
@@ -862,7 +862,7 @@ body main .video {
   margin-top: 73px;
   gap: 20px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .video {
     gap: 0;
     margin-top: 54px;
@@ -875,7 +875,7 @@ body main .video .video__header {
   max-width: 818px;
   text-align: center;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .video .video__header {
     height: auto;
     font-size: 14px;
@@ -893,7 +893,7 @@ body main .video .video__player iframe {
   width: 942px;
   height: 526px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .video .video__player iframe {
     width: 337px;
     height: 189px;
@@ -917,7 +917,7 @@ body main .questions {
   margin-top: 80px;
   width: 100%;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .questions {
     margin-top: 40px;
     padding: 0 20px;
@@ -937,7 +937,7 @@ body main .questions .questions__item .questions__item-title {
   display: flex;
   justify-content: space-between;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .questions .questions__item .questions__item-title {
     font-size: 14px;
     line-height: 30px;
@@ -952,7 +952,7 @@ body main .questions .questions__item .questions__item-title::after {
   vertical-align: middle;
   transition: 1s all ease;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .questions .questions__item .questions__item-title::after {
     font-size: 76px;
   }
@@ -961,7 +961,7 @@ body main .questions .questions__item .questions__item-content {
   font-size: 20px;
   margin-top: 25px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body main .questions .questions__item .questions__item-content {
     font-size: 14px;
     line-height: 20px;
@@ -982,7 +982,7 @@ body footer .wrapper {
   height: 197px;
   gap: 330px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper {
     flex-direction: column;
     height: auto;
@@ -997,7 +997,7 @@ body footer .wrapper .logo-wrapper {
   font-size: 13px;
   line-height: 18px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .logo-wrapper {
     margin-top: 20px;
   }
@@ -1008,7 +1008,7 @@ body footer .wrapper .logo-wrapper .logo {
   gap: 20px;
   position: relative;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .logo-wrapper .logo {
     justify-content: center;
   }
@@ -1021,19 +1021,20 @@ body footer .wrapper .logo-wrapper .logo .contacts {
   right: -90px;
   top: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .logo-wrapper .logo .contacts {
     top: 130px;
     left: 20px;
     font-size: 15px;
     line-height: 20px;
+    max-width: 240px;
   }
 }
 body footer .wrapper .logo-wrapper .rights {
   font-size: 12px;
   color: #aaaaaa;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .logo-wrapper .rights {
     display: none;
   }
@@ -1044,7 +1045,7 @@ body footer .wrapper .social-networks {
   gap: 40px;
   margin-top: 25px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .social-networks {
     padding: 0 15px;
     max-width: 355px;
@@ -1055,7 +1056,7 @@ body footer .wrapper .social-networks .social-networks__icons {
   justify-content: flex-end;
   gap: 6px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .social-networks .social-networks__icons {
     gap: 9px;
     margin-top: 40px;
@@ -1065,7 +1066,7 @@ body footer .wrapper .social-networks .social-networks__icons {
 body footer .wrapper .social-networks .social-networks__icons .social-networks__icons_item {
   cursor: pointer;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .social-networks .social-networks__icons .social-networks__icons_item img {
     width: 48px;
     height: 48px;
@@ -1074,14 +1075,14 @@ body footer .wrapper .social-networks .social-networks__icons .social-networks__
 body footer .wrapper .social-networks .rights-phone {
   display: none;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .social-networks .rights-phone {
     display: flex;
     font-size: 12px;
     color: #aaaaaa;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   body footer .wrapper .social-networks .confidential-policy {
     text-align: center;
     margin-bottom: 30px;
