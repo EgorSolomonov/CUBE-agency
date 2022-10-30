@@ -708,6 +708,11 @@ body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-pric
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 375px) {
+  body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .card-prices__individual {
+    height: 82px;
+  }
+}
 body main .travel-cards .travel-cards__cards-wrapper .card .card-body .card-prices .card-prices__individual .explanation {
   font-size: 14px;
   line-height: 17px;

@@ -55,7 +55,7 @@ body {
     justify-content: center;
     color: $mainText2;
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-device-width: 375px) {
       width: 100%;
       height: calc(100vh + 84px);
     }
@@ -79,7 +79,7 @@ body {
         font-size: 40px;
         line-height: 30px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           font-size: 30px;
           line-height: 17px;
         }
@@ -92,7 +92,7 @@ body {
         max-width: 517px;
         text-align: center;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           font-size: 16px;
           line-height: 17px;
         }
@@ -101,7 +101,7 @@ body {
           color: $modalagreementphrase;
           font-size: 15px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             font-size: 13px;
           }
         }
@@ -135,7 +135,7 @@ body {
           text-indent: 25px;
           color: $modalInputColor;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             width: 300px;
             height: 50px;
           }
@@ -147,7 +147,7 @@ body {
             font-size: 22px;
             line-height: 23px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               font-size: 18px;
               line-height: 17px;
             }
@@ -175,7 +175,7 @@ body {
             top: center;
             opacity: 0;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               width: 30px;
               height: 30px;
             }
@@ -195,7 +195,7 @@ body {
     z-index: 3;
     background-color: $mainText2;
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-device-width: 375px) {
       height: 74px;
       width: 100%;
     }
@@ -220,13 +220,13 @@ body {
         -ms-flex-align: center;
         align-items: center;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           gap: 13px;
         }
 
         .logo-wrapper__logo-img {
           img {
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               width: 67px;
               height: 71px;
             }
@@ -239,7 +239,7 @@ body {
           font-size: 14px;
           line-height: 17px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             max-width: 199px;
           }
         }
@@ -256,7 +256,7 @@ body {
         text-transform: uppercase;
         margin-top: 30px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           display: none;
         }
 
@@ -275,7 +275,7 @@ body {
       .contacts-wrapper {
         margin-top: 30px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           display: none;
         }
 
@@ -312,7 +312,7 @@ body {
         gap: 4px;
         cursor: pointer;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           z-index: 5;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -414,13 +414,13 @@ body {
         }
       }
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         right: -375px;
       }
     }
 
     .hamburger-menu-open {
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         visibility: visible;
         right: 0;
       }
@@ -445,7 +445,7 @@ body {
       justify-content: center;
       background-attachment: fixed;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         height: 600px;
         background-size: 400% 100%;
         background-position: center;
@@ -473,7 +473,7 @@ body {
         justify-content: center;
         position: relative;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           margin-left: 0px;
           margin-top: 40px;
           padding: 0 25px;
@@ -485,7 +485,7 @@ body {
           line-height: 75px;
           max-width: 923px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             font-size: 39px;
             line-height: 49px;
           }
@@ -495,7 +495,7 @@ body {
           max-width: 526px;
           margin-bottom: 50px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             font-size: 16px;
             line-height: 20px;
             margin-bottom: 20px;
@@ -511,7 +511,7 @@ body {
           align-items: center;
           gap: 30px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -536,7 +536,7 @@ body {
             line-height: 29px;
             max-width: 247px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               font-size: 16px;
               line-height: 20px;
             }
@@ -567,7 +567,7 @@ body {
           right: -375px;
           top: 455px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             display: none;
           }
 
@@ -613,7 +613,7 @@ body {
       margin-top: 89px;
       gap: 55px;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -627,7 +627,7 @@ body {
         .main-img {
           z-index: 1;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             width: 291px;
             height: 291px;
           }
@@ -639,7 +639,7 @@ body {
           top: -67px;
           z-index: 2;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             width: 260px;
             height: 175px;
             left: -100px;
@@ -653,7 +653,7 @@ body {
           bottom: 25px;
           left: 220px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             width: 184px;
             height: 47px;
             bottom: 20px;
@@ -668,7 +668,7 @@ body {
         line-height: 30px;
         max-width: 610px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           font-size: 17px;
           line-height: 25px;
           padding: 0 25px;
@@ -690,7 +690,7 @@ body {
       align-items: center;
       margin-top: 75px;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         padding: 0 20px;
       }
 
@@ -699,7 +699,7 @@ body {
         font-size: 30px;
         line-height: 30px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           font-size: 23px;
         }
       }
@@ -710,7 +710,7 @@ body {
         line-height: 30px;
         color: $cardSectionTextColor;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           font-size: 16px;
           line-height: 20px;
         }
@@ -722,7 +722,7 @@ body {
         display: flex;
         gap: 40px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -742,7 +742,7 @@ body {
           height: auto;
 
           .card-img-top {
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               min-height: 290px;
             }
           }
@@ -780,7 +780,7 @@ body {
               line-height: 21px;
               margin-top: 60px;
 
-              @media only screen and (max-width: 375px) {
+              @media only screen and (max-device-width: 375px) {
                 margin-top: 12px;
                 padding: 10px 20px;
                 font-size: 15px;
@@ -804,7 +804,7 @@ body {
                 line-height: 50px;
                 margin-top: 5px;
 
-                @media only screen and (max-width: 375px) {
+                @media only screen and (max-device-width: 375px) {
                   font-size: 27px;
                   line-height: 34px;
                 }
@@ -820,7 +820,7 @@ body {
                 gap: 12px;
 
                 .card-text {
-                  @media only screen and (max-width: 375px) {
+                  @media only screen and (max-device-width: 375px) {
                     font-size: 14px;
                     line-height: 18px;
                     max-width: 255px;
@@ -848,7 +848,7 @@ body {
               color: $cardSectionTextColor;
               min-height: 100px;
 
-              @media only screen and (max-width: 375px) {
+              @media only screen and (max-device-width: 375px) {
                 font-weight: 400;
                 font-size: 17px;
                 line-height: 17px;
@@ -872,7 +872,7 @@ body {
                 text-decoration-line: line-through;
                 color: $mainText1;
 
-                @media only screen and (max-width: 375px) {
+                @media only screen and (max-device-width: 375px) {
                   font-size: 13px;
                 }
               }
@@ -885,7 +885,7 @@ body {
                 line-height: 40px;
                 color: $discountBack;
 
-                @media only screen and (max-width: 375px) {
+                @media only screen and (max-device-width: 375px) {
                   font-size: 24px;
                   line-height: 28px;
                 }
@@ -904,7 +904,7 @@ body {
                   line-height: 17px;
                   color: $cardSectionTextColor;
 
-                  @media only screen and (max-width: 375px) {
+                  @media only screen and (max-device-width: 375px) {
                     font-size: 14px;
                     line-height: 17px;
                     width: 100px;
@@ -921,12 +921,16 @@ body {
                 -ms-flex-direction: column;
                 flex-direction: column;
 
+                @media only screen and (max-device-width: 375px) {
+                  height: 82px;
+                }
+
                 .explanation {
                   font-size: 14px;
                   line-height: 17px;
                   color: $cardSectionTextColor;
 
-                  @media only screen and (max-width: 375px) {
+                  @media only screen and (max-device-width: 375px) {
                     display: none;
                   }
                 }
@@ -937,7 +941,7 @@ body {
                   line-height: 15px;
                   color: $cardSectionTextColor;
 
-                  @media only screen and (max-width: 375px) {
+                  @media only screen and (max-device-width: 375px) {
                     display: -webkit-box;
                     display: -ms-flexbox;
                     display: flex;
@@ -955,7 +959,7 @@ body {
                 padding: 16px 43px;
                 color: $mainText1;
 
-                @media only screen and (max-width: 375px) {
+                @media only screen and (max-device-width: 375px) {
                   padding: 18px 27px;
                 }
 
@@ -993,7 +997,7 @@ body {
       background-size: 100% 90%;
       background-repeat: no-repeat;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         height: 500px;
         margin-top: 55px;
         background-size: 470% 100%;
@@ -1006,7 +1010,7 @@ body {
         font-size: 40px;
         line-height: 50px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           font-size: 25px;
           line-height: 31px;
           text-align: center;
@@ -1028,7 +1032,7 @@ body {
         color: #00b5ff;
         width: 65%;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center;
@@ -1046,7 +1050,7 @@ body {
           display: flex;
           gap: 60px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -1062,7 +1066,7 @@ body {
           display: flex;
           gap: 60px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -1075,12 +1079,12 @@ body {
         .benefits__item {
           max-width: 220px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             max-width: 145px;
           }
 
           img {
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               width: 58px;
               height: 58px;
               max-width: 160px;
@@ -1091,7 +1095,7 @@ body {
             margin-top: 17px;
             max-width: 210px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               font-size: 18px;
               line-height: 19px;
             }
@@ -1119,7 +1123,7 @@ body {
       margin-top: 73px;
       gap: 20px;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         gap: 0;
         margin-top: 54px;
       }
@@ -1131,7 +1135,7 @@ body {
         max-width: 818px;
         text-align: center;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           height: auto;
           font-size: 14px;
           line-height: 20px;
@@ -1156,7 +1160,7 @@ body {
           width: 942px;
           height: 526px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             width: 337px;
             height: 189px;
           }
@@ -1191,7 +1195,7 @@ body {
       margin-top: 80px;
       width: 100%;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         margin-top: 40px;
         padding: 0 20px;
       }
@@ -1214,7 +1218,7 @@ body {
           -ms-flex-pack: justify;
           justify-content: space-between;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             font-size: 14px;
             line-height: 30px;
             font-weight: 900;
@@ -1230,7 +1234,7 @@ body {
             -o-transition: 1s all ease;
             transition: 1s all ease;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               font-size: 76px;
             }
           }
@@ -1240,7 +1244,7 @@ body {
           font-size: 20px;
           margin-top: 25px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             font-size: 14px;
             line-height: 20px;
           }
@@ -1278,7 +1282,7 @@ body {
       height: 197px;
       gap: 330px;
 
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-device-width: 375px) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1300,7 +1304,7 @@ body {
         font-size: 13px;
         line-height: 18px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           margin-top: 20px;
         }
 
@@ -1314,7 +1318,7 @@ body {
           gap: 20px;
           position: relative;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
@@ -1329,7 +1333,7 @@ body {
             right: -90px;
             top: 30px;
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-device-width: 375px) {
               top: 130px;
               left: 20px;
               font-size: 15px;
@@ -1342,7 +1346,7 @@ body {
           font-size: 12px;
           color: $questionsBorder;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             display: none;
           }
         }
@@ -1359,7 +1363,7 @@ body {
         gap: 40px;
         margin-top: 25px;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-device-width: 375px) {
           padding: 0 15px;
           max-width: 355px;
         }
@@ -1373,7 +1377,7 @@ body {
           justify-content: flex-end;
           gap: 6px;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             gap: 9px;
             margin-top: 40px;
             -webkit-box-pack: center;
@@ -1385,7 +1389,7 @@ body {
             cursor: pointer;
 
             img {
-              @media only screen and (max-width: 375px) {
+              @media only screen and (max-device-width: 375px) {
                 width: 48px;
                 height: 48px;
               }
@@ -1396,7 +1400,7 @@ body {
         .rights-phone {
           display: none;
 
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -1406,7 +1410,7 @@ body {
         }
 
         .confidential-policy {
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-device-width: 375px) {
             text-align: center;
             margin-bottom: 30px;
           }
