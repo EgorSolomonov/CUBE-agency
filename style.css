@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "DIN Pro Regular";
+  font-family: "DIN Pro";
   font-style: normal;
   color: black;
   background-color: #f5f5f5;
@@ -12,15 +12,6 @@ body {
   /* HEADER */
   /* MAIN */
   /* FOOTER */
-}
-@font-face {
-  body {
-    font-family: "DIN Pro Regular";
-    src: url("DINPro.eot");
-    src: url("DINPro.eot?#iefix") format("embedded-opentype"), url("DINPro.woff") format("woff"), url("DINPro.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
 }
 body .modal-window {
   display: none;
