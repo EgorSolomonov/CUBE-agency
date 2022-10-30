@@ -121,6 +121,7 @@ body .modal-window .modal-window__form form input:last-child {
 }
 body .modal-window .modal-window__form form input::-webkit-outer-spin-button,
 body .modal-window .modal-window__form form input::-webkit-inner-spin-button {
+  appearance: none;
   -webkit-appearance: none;
   margin: 0;
 }
