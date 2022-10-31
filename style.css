@@ -532,7 +532,7 @@ body main .travel-cards .header-text {
 }
 @media screen and (max-width: 375px) {
   body main .travel-cards .header-text {
-    font-size: 23px;
+    font-size: 22px;
   }
 }
 body main .travel-cards .travel-cards__header-subtext {
